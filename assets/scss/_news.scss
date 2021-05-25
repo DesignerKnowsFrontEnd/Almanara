@@ -1,0 +1,45 @@
+a.our-news-card {
+    border: 1px solid $divider;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    transition: all ease-in 0.3s;
+
+    &:hover {
+        text-decoration: none;
+        box-shadow: 0px 4px 8px 6px rgba(0, 0, 0, 0.06);
+
+
+    }
+}
+
+.our-news-card {
+
+    
+
+    &-text {
+        margin: 25px 0 0;
+        padding: 20px;
+    }
+    
+    &-info {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid $divider;
+    }
+}
+
+p.author {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: $primary;
+}
+
+p.date {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: $primary;
+}

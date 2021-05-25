@@ -1,0 +1,118 @@
+// styles shared with amenities 
+
+.image-display {
+    height: 450px;
+    //background-image: url(../images/pool-view-hotel.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.highlighted-box {
+    background-color: rgba($color: $primary, $alpha: 1.0);
+    height: 510px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: -30px;
+
+    p {
+        color: $white;
+        font-weight: 700;
+    }
+}
+
+.highlighted-box-2 {
+    background-color: #c9a35e;
+    height: 250px;
+    padding: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+    position: relative;
+
+    p {
+        color: $white;
+        font-weight: 700;
+    }
+}
+
+.icon-group-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    justify-items: flex-start;
+    align-items: flex-start;
+    height: 350px;
+    width: 100%;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.icon-wrapper-grid {
+    display: flex;
+    align-items: baseline;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px 15px 0;
+
+    i {
+        font-size: 22px;
+        color: $primary;
+    }
+
+}
+
+.icon-grid {
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 0;
+
+    i {
+        font-size: 22px;
+        color: $primary;
+    }
+}
+
+.amenities-grid {
+    padding-bottom: 90px;
+}
+
+.underlapping-image {
+    width: 445px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+}
+
+@include respond-below(sm) {
+    .underlapping-image {
+        width: 100%;
+        margin-top: -30px;
+        margin-left: 10px;
+  }
+}

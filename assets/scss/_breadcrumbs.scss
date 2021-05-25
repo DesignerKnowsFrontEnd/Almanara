@@ -1,0 +1,20 @@
+.breadcrumbs {
+    height: 600px;
+    
+    display: flex;
+    background-image: url(../images/leaf-bg-intro.svg);
+    background-size: 30%;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.bread-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+

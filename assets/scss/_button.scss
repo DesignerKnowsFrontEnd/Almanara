@@ -1,0 +1,101 @@
+.btn-primary {
+  color: #fff;
+  background-color: #c9a35e;
+  border-color: #c9a35e;
+  padding: 16px 28px;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.btn-menu {
+  margin-left: 10px;
+  border-radius: 50px;
+  padding: 8px 24px;
+
+  a {
+    font-family: $font-family-body;
+  }
+}
+
+.btn-outline-cta {
+  color: $white;
+  border: 1px solid $white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  &:hover {
+    background-color: $white;
+    border: 1px solid $black;
+  }
+}
+
+.btn-text {
+  color: $primary;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-text-dark {
+  color: $heading;
+  font-weight: 700;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+.btn-link {
+  color: $heading;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.accord-flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-floating {
+  position: fixed;
+  bottom: 30px;
+  width: 95%;
+  margin: 0 auto;
+  left: 0;
+  right: 0px;
+  z-index: 9999;
+}
+
+.floating-div {
+  background: $primary;
+  opacity: 0.8;
+  padding: 20px;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  width: 350px;
+  height: 250px;
+  z-index: 9999;
+}
+
+.closebtn {
+  font-size: 21px;
+  font-family: $font-family-heading;
+  font-weight: 500;
+}
+
+
+@media screen and (max-device-width: 1149px) {
+  .btn {
+    font-size: 14px;
+  }
+
+  .btn-menu {
+    padding: 12px 6px;
+  }
+}

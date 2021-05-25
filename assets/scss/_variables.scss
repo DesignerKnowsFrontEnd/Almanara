@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Mulish:wght@400;700&display=swap');
+
+// font-family
+$font-family-heading: 'Lustria', serif;
+$font-family-body: 'Mulish', sans-serif;
+
+// colors
+$primary: #c9a35e;
+$dark-primary: #9d791c;
+$heading: #373f41;
+$paragraph: #737b7d;
+$divider: #e5e5e5;
+$black: #000;
+$white: #fff;
+
+// navbar
+$navbar-padding-y: 20px;
+$navbar-padding-x: 45px;
+
+//btn
+$btn-font-family: $font-family-body;
+
+
+
+//spacer
+$m25: 25px;
+$m30: 30px;
+
+.mt-25 {
+  margin-top: $m25;
+}
+
+.mt-30 {
+  margin-top: $m30;
+}
+
+.ml-50 {
+  margin-left: 50px !important;
+}
+
+.ml-negative {
+  margin-left: 6.333333% !important;
+}
+
+.pl-50 {
+  padding-left: 50px !important;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@include respond-below(sm) {
+  .pl-50 {
+    padding-left: 15px !important;
+  }
+}

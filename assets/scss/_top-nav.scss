@@ -1,0 +1,80 @@
+.top-nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 45px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  //font-family: $font-family-2;
+  font-size: 12px;
+
+  a {
+    color: $heading;
+  }
+
+  i {
+    font-size: 14px;
+    color: $primary;
+    margin-right: 4px;
+  }
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  background-color: $black;
+  margin: 0 15px;
+}
+
+.social-icons {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+
+  i {
+    color: $paragraph;
+    transition: all ease-in 0.2s;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.contact-info-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+
+  a {
+    color: $paragraph;
+  }
+
+  i {
+    font-size: 14px;
+    color: $primary;
+    margin-right: 4px;
+  }
+}
+
+@include respond-below(sm) {
+  .top-nav {
+    display: none;
+  }
+
+  a.nav-link {
+    padding: 20px 0;
+  }
+
+  .navbar-light .navbar-nav .btn-menu a.nav-link {
+    padding: 8px 24px;;
+  }
+}
+

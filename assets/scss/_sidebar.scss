@@ -1,0 +1,60 @@
+#sidebar {
+    ul {
+        list-style: none;
+        margin:  15px 0;
+        padding: 0;
+    }
+}
+
+// Sidenav - SideDiv 
+
+.sidenav {
+    height: 630px;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: $primary;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: all ease-in 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.pos-r {
+    position: relative;
+
+}
+
+ul.straight-lines  {
+    list-style-image: url(../images/icons/list-item.svg);
+    
+    li {
+        padding-left: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+.modal-header {
+    align-items: baseline;
+    padding: 15px 30px;
+}
+
+.modal-body {
+    padding: 40px 15px;
+}
+
+@include respond-below(xs) {
+    .modal-body {
+        padding: 40px 5px;
+    }
+
+    .modal-header {
+        padding: 15px;
+    }
+}

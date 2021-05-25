@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-heading;
+}
+
+body {
+  font-family: $font-family-body;
+}
+
+p {
+  color: $paragraph;
+  line-height: 30px;
+}
+
+.dark-text {
+  color: $black;
+}
+
+.mx-width-310 {
+  max-width: 310px;
+}
+
+.mx-width-450 {
+  max-width: 450px;
+}
+
+.mx-width-490 {
+  max-width: 490px;
+}
+
+.mx-width-860 {
+  max-width: 860px;
+}
